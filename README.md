@@ -1,6 +1,36 @@
-# stellar-test2
+# vote app
 
-## Project setup
+--
+## APP SMART CONTRACT
+
+>> Folder: voting_app
+
+install ibm blcokchain extension [link](https://marketplace.visualstudio.com/items?itemName=IBMBlockchain.ibm-blockchain-platform)
+
+[image](https://www.ayrotek.com/uploads/blog-resimleri/200728-152310.png)
+
+> NEXT: create local environment, deploy smart contract [link](https://developpaper.com/develop-your-first-fabric-smart-contract-with-ibm-blockchain-platform-extension/)
+
+--
+
+## APP SERVER
+
+>> Folder server_app
+
+open terminal in root directory
+```
+node enrollAdmin.js
+```
+Then start the server
+
+```
+npm start
+```
+
+## APP CLIENT
+
+>> Folder: mian folder bc_app
+
 ```
 npm install
 ```
