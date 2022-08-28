@@ -1,4 +1,6 @@
-# vote app
+# Galsen E-Vote
+
+![image](screenshots/accueil.png)
 
 --
 ## APP SMART CONTRACT
@@ -7,7 +9,7 @@
 
 install ibm blcokchain extension [link](https://marketplace.visualstudio.com/items?itemName=IBMBlockchain.ibm-blockchain-platform)
 
-[image](https://www.ayrotek.com/uploads/blog-resimleri/200728-152310.png)
+![image](https://www.ayrotek.com/uploads/blog-resimleri/200728-152310.png)
 
 > NEXT: create local environment, deploy smart contract [link](https://developpaper.com/develop-your-first-fabric-smart-contract-with-ibm-blockchain-platform-extension/)
 
@@ -29,7 +31,7 @@ npm start
 
 ## APP CLIENT
 
->> Folder: mian folder bc_app
+>> Folder: main folder bc_app
 
 ```
 npm install
