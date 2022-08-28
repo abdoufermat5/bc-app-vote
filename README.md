@@ -47,3 +47,11 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+# DEMO
+
+<a href="https://www.loom.com/share/7f964cabf846445091ac2c775b90f8b2">
+    <p>Galsen E-VOTE demo</p>
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/7f964cabf846445091ac2c775b90f8b2-with-play.gif">
+</a>
