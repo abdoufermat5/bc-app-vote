@@ -14,6 +14,7 @@
 import AppBar from "./components/core/AppBar.vue";
 import Footer from "./components/core/Footer.vue";
 import Sidebar from "./components/core/Sidebar.vue";
+import listCandidats from "@/assets/data.json";
 export default {
   name: "App",
   components: { AppBar, Footer, Sidebar },
@@ -21,5 +22,10 @@ export default {
   data: () => ({
     //
   }),
+  mounted() {
+    console.log("JSON DATA -- ", listCandidats);
+    this.$store.commit("SET_CANDIDATE_LIST", listCandidats.candidates);
+    this.$store.commit("SET_VOTER_LIST", listCandidats.voters);
+  },
 };
 </script>

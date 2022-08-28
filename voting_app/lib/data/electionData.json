@@ -1,0 +1,10 @@
+{
+  "registrarDistinguishedName": "Registre Dakar",
+  "registrarOrg": "Comité surveillance du vote",
+  "registrarLocality": "Dakar",
+  "registrarCountry": "Senegal",
+  "registrarPrecinctNums": [1,2,3],
+  "electionName": "Elections de 2024",
+  "electionCountry": "SENEGAL",
+  "electionYear": 2024
+}

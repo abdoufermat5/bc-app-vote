@@ -2,7 +2,7 @@
   <section id="welcome" class="overflow-hidden">
     <v-row no-gutters>
       <v-col class="hidden-sm-and-down" md="6">
-        <v-img :src="require('@/assets/galsen.png')" height="100vh" />
+        <v-img contain :src="require('@/assets/galsen.png')" height="100vh" />
       </v-col>
 
       <v-col
@@ -24,7 +24,10 @@
 
               <blockquote class="blockquote text-right">
                 <small>
-                  <b>"Un bulletin de vote est plus fort qu'une balle de fusil."</b>
+                  <b
+                    >"Un bulletin de vote est plus fort qu'une balle de
+                    fusil."</b
+                  >
                 </small>
                 <br />
                 <footer class="blockquote-footer">
@@ -35,9 +38,6 @@
                 </footer>
               </blockquote>
             </base-text>
-            <router-link to="/signup">
-              <base-btn class="mt-4"> Sign Up</base-btn>
-            </router-link>
           </v-col>
         </v-row>
 
@@ -46,5 +46,17 @@
         />
       </v-col>
     </v-row>
+    <v-container>
+      <div style="position: relative; padding-bottom: 56.25%; height: 0">
+        <iframe
+          src="https://www.loom.com/embed/7f964cabf846445091ac2c775b90f8b2"
+          frameborder="0"
+          webkitallowfullscreen
+          mozallowfullscreen
+          allowfullscreen
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+        ></iframe>
+      </div>
+    </v-container>
   </section>
 </template>

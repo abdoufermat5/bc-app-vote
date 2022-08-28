@@ -1,0 +1,6 @@
+::1 - - [Sun, 28 Aug 2022 12:21:20 GMT] "GET / HTTP/1.1" 404 1472 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+::1 - - [Sun, 28 Aug 2022 12:21:20 GMT] "GET /stylesheets/style.css HTTP/1.1" 304 - "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+::1 - - [Sun, 28 Aug 2022 12:23:29 GMT] "GET / HTTP/1.1" 404 1472 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+::1 - - [Sun, 28 Aug 2022 12:23:29 GMT] "GET /stylesheets/style.css HTTP/1.1" 304 - "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+::1 - - [Sun, 28 Aug 2022 12:30:07 GMT] "GET / HTTP/1.1" 404 1472 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+::1 - - [Sun, 28 Aug 2022 12:30:07 GMT] "GET /stylesheets/style.css HTTP/1.1" 304 - "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"

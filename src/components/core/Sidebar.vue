@@ -40,7 +40,7 @@
           </div>
         </div>
         <div class="sidebar-body">
-          <div class="sidebar-profile" v-show="memberActive">
+          <div v-if="getIsAuthenticated" class="sidebar-profile" v-show="memberActive">
             <v-avatar v-if="getUser">
               <v-img :src="require('@/assets/galsen.png')" alt="user profile" />
             </v-avatar>
@@ -100,7 +100,7 @@
         </div>
         <hr />
         <div class="text-center" v-show="menuCompact.hidden">
-          <span class="bottom-text">blck developers ©</span>
+          <span class="bottom-text">Abdoufermat&POD©</span>
         </div>
       </template>
     </v-navigation-drawer>
@@ -122,6 +122,18 @@ export default {
       memberActive: true,
       menuLinks: [
         { path: "/", title: "Home", icon: "home", isCurrent: true },
+        {
+          path: "/vote",
+          title: "Voter",
+          icon: "vote",
+          isCurrent: false,
+        },
+        {
+          path: "/results",
+          title: "Résultat election",
+          icon: "menu",
+          isCurrent: false,
+        },
         {
           path: "/rules",
           title: "Règles du vote",

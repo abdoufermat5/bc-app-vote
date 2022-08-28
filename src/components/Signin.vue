@@ -28,7 +28,7 @@
                 outline
                 label="CNI"
                 type="text"
-                :rules="[cni.length>12]"
+                :rules="[cni.length == 12]"
                 v-model="cni"
               ></v-text-field>
             </v-form>
@@ -40,6 +40,7 @@
               @click="authenticate"
               color="info"
               :loading="getLoading"
+              :disabled="cni.length != 12"
               :large="$vuetify.breakpoint.smAndUp"
             >
               <v-icon left>mdi-lock</v-icon>
@@ -55,7 +56,9 @@
             |
             <a href="#">Terms of Service</a>
           </p>
-          <p class="caption my-3">Powered by <a href="#">gouv.sn</a></p>
+          <p class="caption my-3">
+            Powered by <a href="https://www.cena.sn/" target="blank">cena.sn</a>
+          </p>
         </v-layout>
       </v-flex>
     </v-layout>
@@ -77,9 +80,10 @@ export default {
     authenticate: function () {
       this.$store.commit("SET_IS_LOADING", true);
       setTimeout(() => {
-        this.$store.commit("SET_IS_AUTHENTICATED", true);
-        window.location.href = "/";
+        
         this.$store.commit("SET_IS_LOADING", false);
+        this.$store.commit("SET_USER", this.cni);
+        window.location.href = "/";
       }, 3000);
     },
   },
